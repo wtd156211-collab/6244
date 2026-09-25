@@ -1,0 +1,1 @@
+samples/templates/ctx.html:1:10: E_CTX: 变量只能放在用双引号括起来的属性值里

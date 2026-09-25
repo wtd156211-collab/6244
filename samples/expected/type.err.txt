@@ -1,0 +1,1 @@
+samples/templates/type.html:1:4: E_TYPE: site 是对象，不能直接输出

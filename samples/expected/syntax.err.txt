@@ -1,0 +1,1 @@
+samples/templates/syntax.html:2:4: E_SYNTAX: 表达式里有不支持的写法（只允许 路径 或 路径 | raw）

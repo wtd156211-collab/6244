@@ -1,0 +1,11 @@
+{
+  "album": {
+    "name": "夏夜 & 灯",
+    "note": "作者说 \"这张最好\"，别外传",
+    "items": [
+      {"src": "https://example.test/img/1.png?w=640&h=480", "alt": "路灯 <一>", "caption": "第一张"},
+      {"src": "javascript:alert(1)", "alt": "带 \"引号\" 的说明", "caption": "第二张"},
+      {"src": "/img/3.png", "alt": "第三张", "caption": "<em>第三张</em>"}
+    ]
+  }
+}

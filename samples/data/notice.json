@@ -1,0 +1,10 @@
+{
+  "site": {"name": "半角手记 & 笔记", "url": "https://example.test/a?b=1&c=2"},
+  "user": {"name": "Amy <admin>", "role": "编辑", "tags": ["新", "审核中"]},
+  "banner": {"text": "限时 \"五折\" 券", "link": "java\tscript:alert(1)"},
+  "posts": [
+    {"title": "标题 <一>", "url": "/p/1?a=1&b=2", "note": "摘要里有 \"引号\"", "hot": true},
+    {"title": "标题二", "url": "javascript:alert(1)", "note": "", "hot": false},
+    {"title": "标题三", "url": "https://example.test/p/3", "note": "尾部 </script> 与 <em>", "hot": true}
+  ]
+}

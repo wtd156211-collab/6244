@@ -1,0 +1,4 @@
+{
+  "cls": "note\" onmouseover=\"alert(1)",
+  "dx": "\"><script>alert(2)</script>"
+}

@@ -1,0 +1,13 @@
+<section>
+<p>外层：{{ label }}</p>
+{% for label in rows %}
+<p>{{ loop.index }}: {{ label.text }}{% if loop.last %}（末行）{% endif %}</p>
+{% for tag in label.tags %}<em>{{ tag }}</em>{% endfor %}
+{% include "_leaf.html" %}
+{% endfor %}
+<p>恢复：{{ label }}</p>
+{% for row in rows %}
+{% if row.text %}<b>{{ row.text }}</b>{% else %}<i>空</i>{% endif %}
+{% endfor %}
+{% include "_state.html" %}
+</section>

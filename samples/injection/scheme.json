@@ -1,0 +1,8 @@
+{
+  "a": "javascript:alert(1)",
+  "b": "java\tscript:alert(2)",
+  "c": "JaVaScRiPt:alert(3)",
+  "d": "%6aavascript:alert(4)",
+  "e": "https://example.test/x?a=1&b=2",
+  "f": "data:text/html,<script>alert(5)</script>"
+}

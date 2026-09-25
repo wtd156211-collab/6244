@@ -1,0 +1,4 @@
+{
+  "payload": "</script><script>alert(1)</script>",
+  "tail": "\"; alert(2); // 与 \\ 反斜杠"
+}

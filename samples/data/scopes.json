@@ -1,0 +1,9 @@
+{
+  "label": "顶层标签",
+  "rows": [
+    {"text": "甲", "tags": ["a", "b"]},
+    {"text": "", "tags": []},
+    {"text": "乙 <丙>", "tags": ["c"]}
+  ],
+  "strict": true
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<title>{{ site.name }} · 通知</title>
+</head>
+<body>
+<h1 class="title" title="{{ banner.text }}">{{ banner.text }}</h1>
+<p>欢迎，{{ user.name }}（{{ user.role }}）。</p>
+<p>标签：{% for tag in user.tags %}{{ tag }}{% if loop.last %}。{% else %}、{% endif %}{% endfor %}</p>
+{% include "_badge.html" %}
+<p>站点入口：<a href="{{ site.url }}">首页</a>，活动入口：<a href="{{ banner.link }}">活动</a>。</p>
+<ul>
+{% for post in posts %}
+{% include "_row.html" %}
+{% endfor %}
+</ul>
+<script>window.__notice = {"user": {{ user.name }}, "banner": {{ banner.text }}, "first": {{ posts[0].title }}};</script>
+</body>
+</html>
